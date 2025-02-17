@@ -1,4 +1,4 @@
-# Developer by Dhanush Kandhan aka Dhanu - `create-svelte`
+# Developer by Jeya Murugan aka Ajay - `create-svelte`
 
 Welcome to the documentation for building a Svelte project using [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
