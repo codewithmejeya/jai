@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="h-full w-full" lang=" en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/personal_logo.png" />
+	<meta name="viewport" content="width=device-width" />
+	<meta property="og:title" content="Jeya Murugan L" />
+	<meta property="og:image" content="https://jeyamurugan.pages.dev/webpreview_1200.jpg" />
+  	<meta property="og:url" content="https://jeyamurugan.pages.dev" />
+	<meta property="og:type" content="website" />
+	<meta name="description" content="Explore Jeya Murugan's world of technology & web applications.Visit https://jeyamurugan.pages.dev to learn more." />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@ajay_jeyamurugan" />
+	<meta name="twitter:title" content="Dhanush Kandhan" />
+	<meta name="twitter:description" content="Explore Jeya Murugan's world of technology & web applications.Visit https://jeyamurugan.pages.dev to learn more." />
+	<meta name="twitter:image" content="https://jeyamurugan.pages.dev/webpreview_1200.jpg" />
+	
+	<!-- a TEMPORARY fix to avoid light theme flashbang bug. (https://github.com/themesberg/flowbite-svelte/issues/782) -->
+	<script>
+		(function () {
+			const theme = localStorage.getItem('color-theme') || (window.matchMedia('(prefers-color-scheme:  dark)').matches ? 'dark' : 'light');
+			document.documentElement.classList.add(theme);
+		})();
+	</script>
+	%sveltekit.head%
+</head>
+
+<body class="h-full w-full dark:bg-gray-900" data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
+</html>
